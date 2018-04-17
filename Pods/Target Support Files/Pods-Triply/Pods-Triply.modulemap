@@ -1,0 +1,6 @@
+framework module Pods_Triply {
+  umbrella header "Pods-Triply-umbrella.h"
+
+  export *
+  module * { export * }
+}
