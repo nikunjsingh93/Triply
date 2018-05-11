@@ -9,9 +9,37 @@
 import UIKit
 import FirebaseAuth
 
+var USERUID:String?
+
+
+
+
+
+
+extension UIViewController
+{
+    func hideKeyboard()
+    {
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(
+            target: self,
+            action: #selector(UIViewController.dismissKeyboard))
+        
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard()
+    {
+        view.endEditing(true)
+    }
+}
+
+
+
 class ViewController: UIViewController {
 
     @IBOutlet weak var emailTxt: UITextField!
+    
+    
     
     @IBOutlet weak var passwordTxt: UITextField!
     
@@ -28,6 +56,8 @@ class ViewController: UIViewController {
                     if user != nil {
                         
                          print("Success sign in")
+                        
+                        USERUID = Auth.auth().currentUser!.uid
                         
                         self.performSegue(withIdentifier: "home", sender: self)
                         
@@ -97,6 +127,13 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+
+        self.hideKeyboard()
+        
+            self.navigationController?.isNavigationBarHidden = true
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -106,4 +143,6 @@ class ViewController: UIViewController {
 
 
 }
+
+
 

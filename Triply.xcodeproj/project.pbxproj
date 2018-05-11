@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		527CC99B17213BBDBD6F94FA /* Pods_Triply.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 032C1BF3A06C3ED0BDE4237C /* Pods_Triply.framework */; };
+		F90E0D7B208EB3A2002CB843 /* SeachHotelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F90E0D7A208EB3A2002CB843 /* SeachHotelsTableViewController.swift */; };
 		F917124120859F0000304910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F917124020859F0000304910 /* AppDelegate.swift */; };
 		F917124320859F0000304910 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F917124220859F0000304910 /* ViewController.swift */; };
 		F917124620859F0000304910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F917124420859F0000304910 /* Main.storyboard */; };
@@ -15,13 +16,31 @@
 		F917124B20859F0200304910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F917124A20859F0200304910 /* Assets.xcassets */; };
 		F917124E20859F0200304910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F917124C20859F0200304910 /* LaunchScreen.storyboard */; };
 		F91712562085A1D000304910 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F91712552085A1CF00304910 /* GoogleService-Info.plist */; };
+		F94C50F2208F1A8200AB700F /* SearchFlightsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C50F1208F1A8200AB700F /* SearchFlightsTableViewController.swift */; };
+		F94C50F4208FC71800AB700F /* FlightDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F94C50F3208FC71800AB700F /* FlightDetailViewController.swift */; };
 		F958B7E52085B1E000F01327 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F958B7E42085B1E000F01327 /* HomeViewController.swift */; };
+		F95D29C8208EDE2100C5E90B /* HotelDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F95D29C7208EDE2100C5E90B /* HotelDetailViewController.swift */; };
+		F9E30C3F2093842D00637DF8 /* BookHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E30C3E2093842D00637DF8 /* BookHotelViewController.swift */; };
+		F9E30C41209395A800637DF8 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E30C40209395A800637DF8 /* PersonViewController.swift */; };
+		F9E30C432093985E00637DF8 /* FinallyHotelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E30C422093985E00637DF8 /* FinallyHotelViewController.swift */; };
+		F9E30C4520939CA800637DF8 /* PersonFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E30C4420939CA800637DF8 /* PersonFlightViewController.swift */; };
+		F9E30C4720939E4F00637DF8 /* BookFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E30C4620939E4E00637DF8 /* BookFlightViewController.swift */; };
+		F9E30C4920939E6500637DF8 /* FinallyFlightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E30C4820939E6500637DF8 /* FinallyFlightViewController.swift */; };
+		F9E30C4F2093D03900637DF8 /* FetchMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E30C4E2093D03900637DF8 /* FetchMainViewController.swift */; };
+		F9E30C512093DF4D00637DF8 /* THotelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E30C502093DF4D00637DF8 /* THotelsTableViewController.swift */; };
+		F9E30C532093DF6000637DF8 /* TFlightsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E30C522093DF6000637DF8 /* TFlightsTableViewController.swift */; };
+		F9E30C552093DF8B00637DF8 /* THDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E30C542093DF8B00637DF8 /* THDetailsViewController.swift */; };
+		F9E30C572093DF9800637DF8 /* TFDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9E30C562093DF9800637DF8 /* TFDetailsViewController.swift */; };
+		F9E30C5B2094B6C900637DF8 /* eiffel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9E30C5A2094B6C800637DF8 /* eiffel.jpg */; };
+		F9E30C5D2094B78400637DF8 /* bostonharbour.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9E30C5C2094B78400637DF8 /* bostonharbour.jpg */; };
+		F9E30C5F2094C19800637DF8 /* titlis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F9E30C5E2094C19700637DF8 /* titlis.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		032C1BF3A06C3ED0BDE4237C /* Pods_Triply.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Triply.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2575BFB6CD5253304D4B242C /* Pods-Triply.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triply.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Triply/Pods-Triply.debug.xcconfig"; sourceTree = "<group>"; };
 		6230C5829E2D1A11926A4371 /* Pods-Triply.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triply.release.xcconfig"; path = "Pods/Target Support Files/Pods-Triply/Pods-Triply.release.xcconfig"; sourceTree = "<group>"; };
+		F90E0D7A208EB3A2002CB843 /* SeachHotelsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeachHotelsTableViewController.swift; sourceTree = "<group>"; };
 		F917123D20859F0000304910 /* Triply.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Triply.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F917124020859F0000304910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F917124220859F0000304910 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -31,7 +50,24 @@
 		F917124D20859F0200304910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F917124F20859F0200304910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F91712552085A1CF00304910 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F94C50F1208F1A8200AB700F /* SearchFlightsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchFlightsTableViewController.swift; sourceTree = "<group>"; };
+		F94C50F3208FC71800AB700F /* FlightDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightDetailViewController.swift; sourceTree = "<group>"; };
 		F958B7E42085B1E000F01327 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		F95D29C7208EDE2100C5E90B /* HotelDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotelDetailViewController.swift; sourceTree = "<group>"; };
+		F9E30C3E2093842D00637DF8 /* BookHotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookHotelViewController.swift; sourceTree = "<group>"; };
+		F9E30C40209395A800637DF8 /* PersonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		F9E30C422093985E00637DF8 /* FinallyHotelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinallyHotelViewController.swift; sourceTree = "<group>"; };
+		F9E30C4420939CA800637DF8 /* PersonFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonFlightViewController.swift; sourceTree = "<group>"; };
+		F9E30C4620939E4E00637DF8 /* BookFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookFlightViewController.swift; sourceTree = "<group>"; };
+		F9E30C4820939E6500637DF8 /* FinallyFlightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinallyFlightViewController.swift; sourceTree = "<group>"; };
+		F9E30C4E2093D03900637DF8 /* FetchMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FetchMainViewController.swift; sourceTree = "<group>"; };
+		F9E30C502093DF4D00637DF8 /* THotelsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THotelsTableViewController.swift; sourceTree = "<group>"; };
+		F9E30C522093DF6000637DF8 /* TFlightsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFlightsTableViewController.swift; sourceTree = "<group>"; };
+		F9E30C542093DF8B00637DF8 /* THDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = THDetailsViewController.swift; sourceTree = "<group>"; };
+		F9E30C562093DF9800637DF8 /* TFDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TFDetailsViewController.swift; sourceTree = "<group>"; };
+		F9E30C5A2094B6C800637DF8 /* eiffel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = eiffel.jpg; path = ../../../../Downloads/eiffel.jpg; sourceTree = "<group>"; };
+		F9E30C5C2094B78400637DF8 /* bostonharbour.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bostonharbour.jpg; path = ../../../../Downloads/bostonharbour.jpg; sourceTree = "<group>"; };
+		F9E30C5E2094C19700637DF8 /* titlis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = titlis.jpg; path = ../../../../Downloads/titlis.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,15 +120,33 @@
 		F917123F20859F0000304910 /* Triply */ = {
 			isa = PBXGroup;
 			children = (
+				F9E30C5E2094C19700637DF8 /* titlis.jpg */,
+				F9E30C5C2094B78400637DF8 /* bostonharbour.jpg */,
+				F9E30C5A2094B6C800637DF8 /* eiffel.jpg */,
 				F917124020859F0000304910 /* AppDelegate.swift */,
 				F917124220859F0000304910 /* ViewController.swift */,
 				F958B7E42085B1E000F01327 /* HomeViewController.swift */,
+				F90E0D7A208EB3A2002CB843 /* SeachHotelsTableViewController.swift */,
+				F94C50F1208F1A8200AB700F /* SearchFlightsTableViewController.swift */,
 				F917124420859F0000304910 /* Main.storyboard */,
+				F9E30C3E2093842D00637DF8 /* BookHotelViewController.swift */,
+				F95D29C7208EDE2100C5E90B /* HotelDetailViewController.swift */,
+				F94C50F3208FC71800AB700F /* FlightDetailViewController.swift */,
 				F917124A20859F0200304910 /* Assets.xcassets */,
 				F917124C20859F0200304910 /* LaunchScreen.storyboard */,
 				F917124F20859F0200304910 /* Info.plist */,
 				F917124720859F0000304910 /* Triply.xcdatamodeld */,
 				F91712552085A1CF00304910 /* GoogleService-Info.plist */,
+				F9E30C40209395A800637DF8 /* PersonViewController.swift */,
+				F9E30C422093985E00637DF8 /* FinallyHotelViewController.swift */,
+				F9E30C4420939CA800637DF8 /* PersonFlightViewController.swift */,
+				F9E30C4620939E4E00637DF8 /* BookFlightViewController.swift */,
+				F9E30C4820939E6500637DF8 /* FinallyFlightViewController.swift */,
+				F9E30C4E2093D03900637DF8 /* FetchMainViewController.swift */,
+				F9E30C502093DF4D00637DF8 /* THotelsTableViewController.swift */,
+				F9E30C522093DF6000637DF8 /* TFlightsTableViewController.swift */,
+				F9E30C542093DF8B00637DF8 /* THDetailsViewController.swift */,
+				F9E30C562093DF9800637DF8 /* TFDetailsViewController.swift */,
 			);
 			path = Triply;
 			sourceTree = "<group>";
@@ -158,7 +212,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F917124E20859F0200304910 /* LaunchScreen.storyboard in Resources */,
+				F9E30C5D2094B78400637DF8 /* bostonharbour.jpg in Resources */,
+				F9E30C5B2094B6C900637DF8 /* eiffel.jpg in Resources */,
 				F91712562085A1D000304910 /* GoogleService-Info.plist in Resources */,
+				F9E30C5F2094C19800637DF8 /* titlis.jpg in Resources */,
 				F917124B20859F0200304910 /* Assets.xcassets in Resources */,
 				F917124620859F0000304910 /* Main.storyboard in Resources */,
 			);
@@ -194,12 +251,16 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Triply/Pods-Triply-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SearchTextField/SearchTextField.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SearchTextField.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -214,9 +275,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9E30C3F2093842D00637DF8 /* BookHotelViewController.swift in Sources */,
+				F9E30C532093DF6000637DF8 /* TFlightsTableViewController.swift in Sources */,
+				F95D29C8208EDE2100C5E90B /* HotelDetailViewController.swift in Sources */,
+				F9E30C552093DF8B00637DF8 /* THDetailsViewController.swift in Sources */,
+				F9E30C4520939CA800637DF8 /* PersonFlightViewController.swift in Sources */,
+				F9E30C572093DF9800637DF8 /* TFDetailsViewController.swift in Sources */,
+				F9E30C4720939E4F00637DF8 /* BookFlightViewController.swift in Sources */,
+				F9E30C4F2093D03900637DF8 /* FetchMainViewController.swift in Sources */,
 				F917124920859F0000304910 /* Triply.xcdatamodeld in Sources */,
+				F9E30C432093985E00637DF8 /* FinallyHotelViewController.swift in Sources */,
 				F917124320859F0000304910 /* ViewController.swift in Sources */,
+				F94C50F2208F1A8200AB700F /* SearchFlightsTableViewController.swift in Sources */,
+				F9E30C41209395A800637DF8 /* PersonViewController.swift in Sources */,
+				F9E30C512093DF4D00637DF8 /* THotelsTableViewController.swift in Sources */,
+				F90E0D7B208EB3A2002CB843 /* SeachHotelsTableViewController.swift in Sources */,
 				F917124120859F0000304910 /* AppDelegate.swift in Sources */,
+				F94C50F4208FC71800AB700F /* FlightDetailViewController.swift in Sources */,
+				F9E30C4920939E6500637DF8 /* FinallyFlightViewController.swift in Sources */,
 				F958B7E52085B1E000F01327 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
