@@ -1,6 +1,6 @@
 # Triply
 
-iOS application to book flights and hotels. Firebase as Backend.
+iOS application to book Flights and Hotels. Provides real-time information about the Flights and Hotels available to book around the world for more than 30 cities worldwide. Uses Firebase as Backend to Authenticate and Store the Bookings. Works on any iOS device from iPhone to iPad with correct constraints. Created in Xcode 9 using Swift with a target of iOS 11.2
 
 # Screenshots
 
