@@ -990,7 +990,7 @@ class HomeViewController: UIViewController {
     func getJsonFromUrl(){
         //creating a NSURL
         
-        var URL_H = "https://api.sandbox.amadeus.com/v1.2/hotels/search-airport?apikey=TNUL27HsWgQHfb4j4W5Wr8am0mkU1CD6&location=\(destHotelTemp!)&check_in=\(destHotelFromDateTemp!)&check_out=\(destHotelToDateTemp!)"
+        var URL_H = "https://api.sandbox.amadeus.com/v1.2/hotels/search-airport?apikey="SECRET_KEY_HERE"&location=\(destHotelTemp!)&check_in=\(destHotelFromDateTemp!)&check_out=\(destHotelToDateTemp!)"
         
         print(URL_H)
         
