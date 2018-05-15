@@ -1219,9 +1219,8 @@ class HomeViewController: UIViewController {
         
         
     
-        var URL_H2 = "https://api.sandbox.amadeus.com/v1.2/flights/extensive-search?apikey=TNUL27HsWgQHfb4j4W5Wr8am0mkU1CD6&origin=\(fromFlightCityTemp!)&destination=\(toFlightCityTemp!)&departure_date=\(startFlightDateTemp!)--\(endFlightDateTemp!)&one-way=\(waylightTemp!)"
+        var URL_H2 = "https://api.sandbox.amadeus.com/v1.2/flights/extensive-search?apikey="SECRET_KEY_HERE"&origin=\(fromFlightCityTemp!)&destination=\(toFlightCityTemp!)&departure_date=\(startFlightDateTemp!)--\(endFlightDateTemp!)&one-way=\(waylightTemp!)"
         
-//         var URL_H2 = "https://api.sandbox.amadeus.com/v1.2/flights/extensive-search?apikey=TNUL27HsWgQHfb4j4W5Wr8am0mkU1CD6&origin=FRA&destination=LON&departure_date=2018-07-20--2018-07-22&one-way=true"
         
         print(URL_H2)
         
